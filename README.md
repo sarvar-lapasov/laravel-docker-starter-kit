@@ -11,7 +11,7 @@ Kit has 3 docker containers: **php, nginx** and **mysql**
 ## Installation
 
 Download the project<br>
-```composer create-project sarvar-lapsov/laravel-docker-starter-kit --ignore-platform-reqs --no-scripts`
+```composer create-project sarvar-lapsov/laravel-docker-starter-kit --ignore-platform-reqs --no-scripts```
 
 Go to the project directory<br>
 ```cd laravel-docker-starter-kit```
@@ -35,7 +35,7 @@ Running migrations:<br>
 By the way, you can change this port by changing ```DOCKER_NGINX_PORT``` variable in [.env](.env) file.** 
 
 If you receive an error message (Permission denied)<br>
-```docker compose exec php bash```
+```docker compose exec php bash```<br>
 ```chown -R www-data:www-data storage/ bootstrap/cache/```
 
 
