@@ -11,7 +11,7 @@ Kit has 3 docker containers: **php, nginx** and **mysql**
 ## Installation
 
 Download the project<br>
-```composer create-project sarvar-lapasov/laravel-docker-starter-kit --ignore-platform-reqs --no-scripts```
+```composer create-project sarvar-lapasov/laravel-docker-starter-kit --ignore-platform-reqs --no-scripts --stability=dev```
 
 Go to the project directory<br>
 ```cd laravel-docker-starter-kit```
